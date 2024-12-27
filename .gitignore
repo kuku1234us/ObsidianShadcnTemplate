@@ -1,0 +1,7 @@
+node_modules/
+test-vault/
+dist/
+data.json
+main.js
+.vscode/
+*.code-workspace

@@ -1,0 +1,10 @@
+{
+  "id": "react-wizard",
+  "name": "ReactWiz",
+  "description": "Obsidian + ReactJS + Tailwind/Shadcn",
+  "version": "0.0.0",
+  "author": "kuku1234us",
+  "authorUrl": "https://github.com/kuku1234us/",
+  "isDesktopOnly": false,
+  "minAppVersion": "0.10.8"
+}
