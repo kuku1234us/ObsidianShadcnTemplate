@@ -6,16 +6,19 @@
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react",
-    "module": "ESNext",
+    "module": "Node16",
     "target": "esnext",
     "allowJs": true,
     "noImplicitAny": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "importHelpers": true,
     "lib": ["dom", "esnext"],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "skipLibCheck": true,
+    "types": ["node"]
   },
-  "include": ["**/*.ts", "**/*.tsx", "tailwind.config.js"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["tailwind.config.js"]
 }

@@ -6,6 +6,7 @@ import "./main.css";
 import "regenerator-runtime/runtime";
 
 import DiceRoller from "@/components/DicerRoller";
+import { ObsidianWizSettings } from "@/types/ObsidianWizSettings";
 
 class DiceRollerModal extends Modal {
   private root: ReactDOM.Root | null = null;
@@ -24,7 +25,9 @@ class DiceRollerModal extends Modal {
   }
 }
 
-export default class ReactStarterPlugin extends Plugin {
+export default class ObsidianWizPlugin extends Plugin {
+  settings!: ObsidianWizSettings;
+
   async onload(): Promise<void> {
     // Register a command to open the Dice Roller modal
     this.addCommand({

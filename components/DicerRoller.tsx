@@ -36,7 +36,7 @@ export default function DiceRoller(): JSX.Element {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <Button>Test 1</Button>
+      <Button>Obsidian Wizard 1</Button>
     </>
   );
 }
